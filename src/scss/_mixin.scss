@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*palette mixins*/
 @mixin texto-palette ($size) {
 	font-size: ($size);
@@ -7,9 +6,8 @@
 	color:$white;
 }
 
-
 /*palette mixins*/
-=======
+
 // estilo del boton en area best price (Mireya)
 @mixin boton ( $color-fondo, $color-borde) {
 	padding: 7px 12px;
@@ -19,4 +17,3 @@
   border-color: $color-borde;
   cursor: pointer;
 }
->>>>>>> upstream/master

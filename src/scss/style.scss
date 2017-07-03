@@ -3,10 +3,6 @@
 @import 'directivas';
 @import 'mixin';
 @import 'funciones';
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream/master
 //Comienzan Clases generales//
 
 * {
@@ -25,44 +21,6 @@
 }
 //Terminan Clases generales//
 
-<<<<<<< HEAD
-/*Inicia estilos jumbotron*/
-.jumbotron {
-	width:100%;
-	height: 80vh;
-	background-image: url("../../assets/img/carousel-bg.jpg");
-	background-position: center;
-	background-size: cover;
-	text-align: $texto-centrado;
-	font-family:$fuente;
-	color:$white;
-}
-
-/*Finaliza estilos jumbotron*/
-/*Inicia estilos color palette*/
-.palette {
-	width:100%;
-	color:$blue-gray;
-	font-family: $fuente;
-	&__tabla {
-		height: 100vh;
-		display:table;
-		text-align: $texto-centrado;
-		width:100%;
-		&__tr {
-			display:table-row;
-		}
-		&__td {
-			display: table-cell;
-			height: 150px;
-			width: 180px;
-			margin-bottom: 2%;
-		}
-	}
-}
-
-/*Fin estilos color palette*/
-=======
 //Comienza Clases Nav//
 .navbar{
 	min-height: 50px;
@@ -263,7 +221,6 @@ h2{
 	text-align: center;
 	color: $white;
 }
-
 h3{
   margin: 0;
 }
@@ -318,4 +275,78 @@ color: $white;
 .texto__blanco{
   color: $white;
 }
->>>>>>> upstream/master
+
+//Comienzan clases what-we-do
+	.weDo{
+		background-color: $green;
+		font-family: $fuente;
+		color: #FFF;
+		text-align: center;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		hr{
+			border: 1px solid $white;
+			color: #FFF;
+			width: 25%;
+			margin-top: 3%;
+			margin-bottom: 3%;
+		}
+		&__servicios{
+			margin-top: 3%;
+			margin-bottom: 3%;
+		}
+		&__bg-icono{
+			width: 80%;
+			background-color: $blue-gray;
+			display: block;
+			margin: 0 auto;
+		}
+		&__icono{
+			display: block;
+			margin: 0 auto;
+		}
+		&__btn{
+			background-color: #443E44;
+			color:white;
+			font-size: 1.5em;
+			border: none;
+			padding: 2%;
+		}
+	}
+//Terminan clases what-we-do
+/*Inicia estilos jumbotron*/
+.jumbotron {
+	width:100%;
+	height: 80vh;
+	background-image: url("../../assets/img/carousel-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: $texto-centrado;
+	font-family:$fuente;
+	color:$white;
+}
+
+/*Finaliza estilos jumbotron*/
+/*Inicia estilos color palette*/
+.palette {
+	width:100%;
+	color:$blue-gray;
+	font-family: $fuente;
+	&__tabla {
+		height: 100vh;
+		display:table;
+		text-align: $texto-centrado;
+		width:100%;
+		&__tr {
+			display:table-row;
+		}
+		&__td {
+			display: table-cell;
+			height: 150px;
+			width: 180px;
+			margin-bottom: 2%;
+		}
+	}
+}
+
+/*Fin estilos color palette*/
