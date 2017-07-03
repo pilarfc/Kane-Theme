@@ -152,8 +152,16 @@
     background-size: cover;
     background-position: center;
     color: white;
-    text-align: center;
+    text-align: center; 
+    
+    &__iconos {
+        padding-top: 10%;
+        .fa {
+            margin: 1%;
+        }
+    }
 }
+
 
 // FINALIZA GET IN TOUCH //
 
