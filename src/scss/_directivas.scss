@@ -1,9 +1,3 @@
-@for $numColumn from 1 through 12 {
-    .col-#{$numColumn}{
-        width:anchoColumnas($numColumn);
-    }
-}
-
 
 $clase: bloque__encabezado;
 
