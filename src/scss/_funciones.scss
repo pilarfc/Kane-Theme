@@ -1,0 +1,14 @@
+@function anchoColumnas($columns){
+    @return percentage(($columns/12));
+}  
+
+
+@function offsetWidth($margins) {
+    @return percentage(($margins/12));
+}
+
+@for $offsetNumber from 1 through 12 {
+    .offset-#{$offsetNumber} {
+        margin-left: offsetWidth($offsetNumber);
+    }
+}
