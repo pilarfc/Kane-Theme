@@ -2,12 +2,9 @@
 @import 'grid';
 @import 'directivas';
 @import 'mixin';
-<<<<<<< HEAD
-@import 'funciones'; //Comienzan Clases generales//
-
-.centrar {
-=======
 @import 'funciones';
+
+
 //Comienzan Clases generales//
 
 * {
@@ -16,7 +13,6 @@
 }
 
 .centrar{
->>>>>>> 93d9bd8c009d9f2d27d58b69127a5bce21d0f126
 	text-align: center;
 }
 
@@ -28,8 +24,7 @@
 	float: right;
 }
 //Terminan Clases generales//
-<<<<<<< HEAD
-=======
+
 
 //Comienza Clases Nav//
 .navbar{
@@ -67,8 +62,6 @@
 
 //Terminan Clases Nav//
 
->>>>>>> 93d9bd8c009d9f2d27d58b69127a5bce21d0f126
-// clases Lexa
 
 .body-color {
 	background: $blue-gray;
