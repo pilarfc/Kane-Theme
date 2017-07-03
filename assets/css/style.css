@@ -106,4 +106,29 @@
   background: #2c3e50;
   font: "Raleway", sans-serif; }
 
+#what-we-do {
+  background-color: #27ad60;
+  font-family: "Raleway", sans-serif;
+  color: #FFF;
+  text-align: center; }
+  #what-we-do hr {
+    color: #FFF; }
+
+.weDo__bg-icono {
+  width: 50%;
+  background-color: #2c3e50;
+  display: block;
+  margin: 0 auto; }
+
+.weDo__icono {
+  display: block;
+  margin: 0 auto; }
+
+.weDo__btn {
+  background-color: #443E44;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  padding: 2%; }
+
 /*# sourceMappingURL=style.css.map */

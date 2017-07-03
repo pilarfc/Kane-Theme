@@ -20,3 +20,34 @@
   background: $blue-gray;
   font:$fuente;
 }
+
+//Comienzan clases grace
+	#what-we-do{
+		background-color: $green;
+		font-family: $fuente;
+		color: #FFF;
+		text-align: center;
+		hr{
+			color: #FFF;
+		}
+	}
+	.weDo__bg-icono{
+		width: 50%;
+		background-color: $blue-gray;
+		display: block;
+		margin: 0 auto;
+	}
+	.weDo__icono{
+		display: block;
+		margin: 0 auto;
+	}
+	.weDo__btn{
+		background-color: #443E44;
+		color:white;
+		font-size: 1.5em;
+		border: none;
+		padding: 2%;
+	}
+
+
+//Terminan clases grace
