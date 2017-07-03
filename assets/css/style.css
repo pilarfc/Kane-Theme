@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -504,4 +504,3 @@ small {
   .footer__message {
     padding: 5%; }
 
-/*# sourceMappingURL=style.css.map */
