@@ -284,3 +284,73 @@ color: $white;
 .texto__blanco{
   color: $white;
 }
+
+
+/* OUR AWESOME TEAM */
+#our-awesome-team{
+  background-color: $green;
+  color: $white;
+  font-family: $fuente;
+}
+.team-header{
+  h2{
+  }
+  hr{
+    width: 20%;
+  }
+  h6{
+    color:adjust-hue( $white, 50% );
+  }
+}
+#team{
+  width: 85%;
+}
+.team-member{
+  color: $light-gray;
+  padding: 1.5rem;
+  &__hr{
+    border-top: 1px dashed 
+  }
+  &__foto{
+    border-radius: 15px;
+  }
+}/* ---Termina OUR TEAM----*/
+
+//Comienzan clases what-we-do
+	.weDo{
+		background-color: $green;
+		font-family: $fuente;
+		color: #FFF;
+		text-align: center;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		hr{
+			border: 1px solid $white;
+			color: #FFF;
+			width: 25%;
+			margin-top: 3%;
+			margin-bottom: 3%;
+		}
+		&__servicios{
+			margin-top: 3%;
+			margin-bottom: 3%;
+		}
+		&__bg-icono{
+			width: 80%;
+			background-color: $blue-gray;
+			display: block;
+			margin: 0 auto;
+		}
+		&__icono{
+			display: block;
+			margin: 0 auto;
+		}
+		&__btn{
+			background-color: #443E44;
+			color:white;
+			font-size: 1.5em;
+			border: none;
+			padding: 2%;
+		}
+	}
+//Terminan clases what-we-do
