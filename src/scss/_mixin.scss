@@ -1,3 +1,13 @@
+/*palette mixins*/
+@mixin texto-palette ($size) {
+	font-size: ($size);
+	text-align: $texto-centrado;
+	font-family:$fuente;
+	color:$white;
+}
+
+/*palette mixins*/
+
 // estilo del boton en area best price (Mireya)
 @mixin boton ( $color-fondo, $color-borde) {
 	padding: 7px 12px;
