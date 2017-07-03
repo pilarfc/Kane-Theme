@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 * {
   box-sizing: border-box;
@@ -350,134 +351,64 @@ p{
   margin: 0;
   display: inline-block;
 }
+=======
+/*
+Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
+        on line 25 of src/scss/style.scss
+
+20: }
+21: .derecha{
+22: 	float: right;
+23: }
+24: //Terminan Clases generales//
+25: <<<<<<< HEAD
+26: =======
+27: 
+28: >>>>>>> upstream/master
+29: 
+30: //Comienza Clases Nav//
+
+Backtrace:
+src/scss/style.scss:25
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1117:in `expr!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:427:in `visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+>>>>>>> e00c651f85fe8ebed80a2851affb5ae3d4235617
 */
-.tabla {
-  border: 2px solid #27ad60;
-  padding: 0;
-  margin-top: 100px; }
-  .tabla li {
-    list-style: none;
-    padding: 5px 20px 5px 20px;
-    text-align: center; }
-
-.tabla__color--naranja {
-  border: 2px solid #e67e22;
-  padding: 0; }
-  .tabla__color--naranja li {
-    list-style: none;
-    padding: 5px 20px 5px 20px;
-    text-align: center; }
-
-.grande {
-  line-height: 70px; }
-
-.bloque--azul {
-  background-color: #2c3e50;
-  color: #fff; }
-
-.bloque--verde {
-  background-color: #27ad60;
-  line-height: 50px;
-  color: #fff; }
-
-.color__blanco {
-  background-color: #fff; }
-
-.boton__color--negro {
-  padding: 7px 12px;
-  border: 1px solid;
-  color: #fff;
-  background-color: #443e44;
-  border-color: #443e44;
-  cursor: pointer; }
-
-.texto__blanco {
-  color: #fff; }
-
-/* OUR AWESOME TEAM */
-#our-awesome-team {
-  background-color: #27ad60;
-  color: #fff;
-  font-family: "Raleway", sans-serif; }
-
-.team-header hr {
-  width: 20%; }
-.team-header h6 {
-  color: white; }
-
-#team {
-  width: 85%; }
-
-.team-member {
-  color: #bcbc8c;
-  padding: 1.5rem; }
-  .team-member__hr {
-    border-top: 1px dashed; }
-  .team-member__foto {
-    border-radius: 15px; }
-
-/* ---Termina OUR TEAM----*/
-.weDo {
-  background-color: #27ad60;
-  font-family: "Raleway", sans-serif;
-  color: #FFF;
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%; }
-  .weDo hr {
-    border: 1px solid #fff;
-    color: #FFF;
-    width: 25%;
-    margin-top: 3%;
-    margin-bottom: 3%; }
-  .weDo__servicios {
-    margin-top: 3%;
-    margin-bottom: 3%; }
-  .weDo__bg-icono {
-    width: 80%;
-    background-color: #2c3e50;
-    display: block;
-    margin: 0 auto; }
-  .weDo__icono {
-    display: block;
-    margin: 0 auto; }
-  .weDo__btn {
-    background-color: #443E44;
-    color: white;
-    font-size: 1.5em;
-    border: none;
-    padding: 2%; }
-
-/*Inicia estilos jumbotron*/
-.jumbotron {
-  width: 100%;
-  height: 80vh;
-  background-image: url("../../assets/img/carousel-bg.jpg");
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  color: #fff; }
-
-/*Finaliza estilos jumbotron*/
-/*Inicia estilos color palette*/
-.palette {
-  width: 100%;
-  color: #2c3e50;
-  font-family: "Raleway", sans-serif; }
-  .palette__tabla {
-    height: 100vh;
-    display: table;
-    text-align: center;
-    width: 100%; }
-    .palette__tabla__tr {
-      display: table-row; }
-    .palette__tabla__td {
-      display: table-cell;
-      height: 150px;
-      width: 180px;
-      margin-bottom: 2%; }
-
-/*Fin estilos color palette*/
-
-/*# sourceMappingURL=style.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 25 of src/scss/style.scss\A \A 20: }\A 21: .derecha{\A 22: 	float: right;\A 23: }\A 24: //Terminan Clases generales//\A 25: <<<<<<< HEAD\A 26: =======\A 27: \A 28: >>>>>>> upstream/master\A 29: \A 30: //Comienza Clases Nav//"; }
