@@ -3,3 +3,13 @@
         width:anchoColumnas($numColumn);
     }
 }
+
+
+$clase: bloque__encabezado;
+
+@each $titulo in $clase {
+    [class="#{$titulo}"] {
+        font-size: 3.5rem;
+        font: $fuente; 
+    }
+}
