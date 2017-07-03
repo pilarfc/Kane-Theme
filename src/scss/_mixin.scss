@@ -17,3 +17,14 @@
   border-color: $color-borde;
   cursor: pointer;
 }
+
+@mixin tablas($color-borde, $margen-abajo ) {
+	border: 2px solid $color-borde;
+	padding: 0;
+	margin-top: $margen-abajo;
+}
+@mixin celdas{
+	list-style: none;
+	padding: 5px 20px 5px 20px;
+	text-align: center;
+}

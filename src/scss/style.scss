@@ -15,16 +15,13 @@
 .centrar{
 	text-align: center;
 }
-
-.izquierda {
+.izquierda{
 	float: left;
 }
-
-.derecha {
+.derecha{|
 	float: right;
 }
 //Terminan Clases generales//
-
 
 //Comienza Clases Nav//
 .navbar{
@@ -62,54 +59,46 @@
 
 //Terminan Clases Nav//
 
-
 .body-color {
-	background: $blue-gray;
-	font-family: $fuente;
-	color: #ffffff;
+  background: $blue-gray;
+  font-family: $fuente;
+  color: #ffffff;
 }
 
 .titulo {
-	@extend .centrar;
-	font-size: 30px;
+  @extend .centrar;
+  font-size: 30px;
 }
 
 .titulo--h6 {
-	@extend .titulo;
-	font-size: 11px;
+  @extend .titulo;
+  font-size: 11px;
 }
 
 .parrafo {
-	@extend .centrar;
-	font-size: 16px;
+  @extend .centrar;
+  font-size: 16px;
 }
 
 .parrafo--naranja {
-	@extend .parrafo;
-	color: $orange;
+  @extend .parrafo;
+  color: $orange;
 }
 
 .input {
-	padding: 5px;
+  padding: 5px;
 }
 
 .boton {
-	padding: 6px;
-	border: none;
+  padding: 6px;
+  border: none;
 }
 
 .boton--submit {
-	background: $dark-gray;
-	color: #ffffff;
+  background: $dark-gray;
+  color: #ffffff;
 }
 
-.linea-division {
-	width: 10%;
-}
-
-.margen-bajo {
-	padding-bottom: 12%;
-}
 
 
 
@@ -161,16 +150,8 @@
     background-size: cover;
     background-position: center;
     color: white;
-    text-align: center; 
-    
-    &__iconos {
-        padding-top: 10%;
-        .fa {
-            margin: 1%;
-        }
-    }
+    text-align: center;
 }
-
 
 // FINALIZA GET IN TOUCH //
 
@@ -226,50 +207,43 @@
 }
 /*_____Termina About Us_____*/
 
+
 //clases para bloques en best price guranteed (Mireya)
 #linea__corta--blanca{
 	width: 20%;
-}/*
-h2{
-	text-align: center;
-	color: $white;
+  margin-top: 20px;
 }
-#subtitulo{
+#titulo--best{
 	text-align: center;
 	color: $white;
+  line-height: 50px;
+}
+#subtitulo--best{
+	margin-left: 30%;
+	color: $white;
+  line-height: 40px;
 }
 h3{
   margin: 0;
 }
 small{
   margin: 0;
+  line-height: 80px;
 }
-p{
-  margin: 0;
-  display: inline-block;
-}
-*/
 .tabla{
-border: 2px solid $green;
-padding: 0;
-margin-top: 100px;
+  @include tablas($green, 100px);
 
   li{
-list-style: none;
-padding: 5px 20px 5px 20px;
-text-align: center;
+    @include celdas;
  }
 }
 .tabla__color--naranja{
-  border: 2px solid $orange;
-  padding: 0;
+  @include tablas($orange, 5px);
   li{
-list-style: none;
-padding: 5px 20px 5px 20px;
-text-align: center;
+    @include celdas;
  }
-
 }
+
 .grande{
 line-height: 70px
 }
@@ -285,6 +259,7 @@ color: $white;
 }
 .color__blanco{
   background-color: $white;
+  color: $dark-gray;
 }
 .boton__color--negro{
   @include boton($dark-gray, $dark-gray );
@@ -292,7 +267,6 @@ color: $white;
 .texto__blanco{
   color: $white;
 }
-
 
 /* OUR AWESOME TEAM */
 #our-awesome-team{
@@ -377,6 +351,7 @@ color: $white;
 //Terminan clases what-we-do
 /*Inicia estilos jumbotron*/
 .jumbotron {
+	padding-top: 20%;
 	width:100%;
 	height: 80vh;
 	background-image: url("../../assets/img/carousel-bg.jpg");
@@ -393,6 +368,12 @@ color: $white;
 	width:100%;
 	color:$blue-gray;
 	font-family: $fuente;
+	&__hr{
+    border: 1px solid $blue-gray;
+    width: 20%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+  }
 	&__tabla {
 		height: 100vh;
 		display:table;
