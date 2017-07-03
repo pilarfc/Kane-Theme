@@ -21,6 +21,42 @@
 }
 //Terminan Clases generales//
 
+//Comienza Clases Nav//
+.navbar{
+	min-height: 50px;
+	position: absolute;
+	margin: 0 0 0 0;
+
+	&__theme{
+		background-color: $green;
+		width: 100%;
+		padding: 1% 2% 1% 2%;
+	}
+	&--fixedTop{
+		position: fixed;
+		z-index: 7000;
+	}
+	&__link{
+		text-decoration: none;
+		color: white;
+		padding: 6px 8px;
+		border-radius: 10px;
+		&:hover{
+			background: white;
+			color: $green;
+		}
+		&--active{
+			@extend .navbar__link:hover;
+		}
+	}
+	&__logo{
+		width: 95px;
+	}
+	
+}
+
+//Terminan Clases Nav//
+
 // clases Lexa
 .body-color{
   background: $blue-gray;
@@ -94,4 +130,5 @@
   }
 }
 /*_____Termina About Us_____*/
+
 
