@@ -6,3 +6,11 @@ $clase: bloque__encabezado;
         font-family: $fuente; 
     }
 }
+
+$padding: padding; 
+
+section.bloque__getintouch {
+    @if #{$padding == 12px} {
+        padding: 0px; 
+   }
+}
