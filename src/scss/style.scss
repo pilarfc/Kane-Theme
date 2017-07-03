@@ -58,9 +58,48 @@
 //Terminan Clases Nav//
 
 // clases Lexa
-.body-color{
+.body-color {
   background: $blue-gray;
-  font:$fuente;
+  font-family: $fuente;
+  color: #ffffff;
+}
+
+.titulo {
+  @extend .centrar;
+  font-size: 30px;
+}
+
+.titulo--h6 {
+  @extend .titulo;
+  font-size: 11px;
+}
+
+.parrafo {
+  @extend .centrar;
+  font-size: 16px;
+}
+
+.parrafo--naranja {
+  @extend .parrafo;
+  color: $orange;
+}
+
+.input {
+  padding: 5px;
+}
+
+.boton {
+  padding: 6px;
+  border: none;
+}
+
+.boton--submit {
+  background: $dark-gray;
+  color: #ffffff;
+}
+
+.linea-division {
+  width: 10%;
 }
 
 
