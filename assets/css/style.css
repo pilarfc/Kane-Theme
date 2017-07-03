@@ -1,3 +1,9 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -17,45 +23,125 @@
   padding: 12px;
   float: left; }
 
-.col-1 {
-  width: anchoColumnas(1); }
-
-.col-2 {
-  width: anchoColumnas(2); }
-
-.col-3 {
-  width: anchoColumnas(3); }
-
-.col-4 {
-  width: anchoColumnas(4); }
-
-.col-5 {
-  width: anchoColumnas(5); }
-
-.col-6 {
-  width: anchoColumnas(6); }
-
-.col-7 {
-  width: anchoColumnas(7); }
-
-.col-8 {
-  width: anchoColumnas(8); }
-
-.col-9 {
-  width: anchoColumnas(9); }
-
-.col-10 {
-  width: anchoColumnas(10); }
-
-.col-11 {
-  width: anchoColumnas(11); }
-
-.col-12 {
-  width: anchoColumnas(12); }
-
 [class="bloque__encabezado"] {
   font-size: 3.5rem;
-  font: "Raleway", sans-serif; }
+  font: "Raleway", sans-serif;
+  text-align: center; }
+
+.palette__td--1 {
+  background-color: #69d2e7; }
+
+.palette__td--2 {
+  background-color: #a7dbdb; }
+
+.palette__td--3 {
+  background-color: #ffffff; }
+
+.palette__td--4 {
+  background-color: #f38630; }
+
+.palette__td--5 {
+  background-color: #fa6900; }
+
+.palette__td--6 {
+  background-color: #E94C6F; }
+
+.palette__td--7 {
+  background-color: #542733; }
+
+.palette__td--8 {
+  background-color: #5A6A62; }
+
+.palette__td--9 {
+  background-color: #C6D5CD; }
+
+.palette__td--10 {
+  background-color: #FDF200; }
+
+.palette__td--11 {
+  background-color: #DB3340; }
+
+.palette__td--12 {
+  background-color: #E8B71A; }
+
+.palette__td--13 {
+  background-color: #F7EAC8; }
+
+.palette__td--14 {
+  background-color: #1FDA9A; }
+
+.palette__td--15 {
+  background-color: #28ABE3; }
+
+.palette__td--16 {
+  background-color: #588C73; }
+
+.palette__td--17 {
+  background-color: #F2E394; }
+
+.palette__td--18 {
+  background-color: #F2AE72; }
+
+.palette__td--19 {
+  background-color: #D96459; }
+
+.palette__td--20 {
+  background-color: #8C4646; }
+
+.palette__td--21 {
+  background-color: #D0C91F; }
+
+.palette__td--22 {
+  background-color: #85C4B9; }
+
+.palette__td--23 {
+  background-color: #008BBA; }
+
+.palette__td--24 {
+  background-color: #DF514C; }
+
+.palette__td--25 {
+  background-color: #DC403B; }
+
+/*rgb(random(255),random(255),random(255)) para generar colores random y asiganrlos como background*/
+/*#000000 + $i para sumarle a un hexadecimal inicial un n├║mero par que cambie su tono */
+/*palette mixins*/
+/*palette mixins*/
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
 
 .offset-1 {
   margin-left: 8.33333%; }
@@ -92,5 +178,46 @@
 
 .offset-12 {
   margin-left: 100%; }
+
+.centrar {
+  text-align: center; }
+
+.izquierda {
+  float: left; }
+
+.derecha {
+  float: right; }
+
+/*Inicia estilos jumbotron*/
+.jumbotron {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../assets/img/carousel-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #fff; }
+
+/*Finaliza estilos jumbotron*/
+/*Inicia estilos color palette*/
+.palette {
+  width: 100%;
+  color: #2c3e50;
+  font-family: "Raleway", sans-serif; }
+  .palette__tabla {
+    height: 100vh;
+    display: table;
+    text-align: center;
+    width: 100%; }
+    .palette__tabla__tr {
+      display: table-row; }
+    .palette__tabla__td {
+      display: table-cell;
+      height: 150px;
+      width: 180px;
+      margin-bottom: 2%; }
+
+/*Fin estilos color palette*/
 
 /*# sourceMappingURL=style.css.map */

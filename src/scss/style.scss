@@ -1,8 +1,9 @@
 @import 'variables';
 @import 'grid';
-@import 'directivas'; 
-@import 'mixin'; 
-@import 'funciones'; 
+@import 'directivas';
+@import 'mixin';
+@import 'funciones';
+
 //Comienzan Clases generales//
 .centrar{
 	text-align: center;
@@ -14,3 +15,40 @@
 	float: right;
 }
 //Terminan Clases generales//
+
+/*Inicia estilos jumbotron*/
+.jumbotron {
+	width:100%;
+	height: 80vh;
+	background-image: url("../../assets/img/carousel-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: $texto-centrado;
+	font-family:$fuente;
+	color:$white;
+}
+
+/*Finaliza estilos jumbotron*/
+/*Inicia estilos color palette*/
+.palette {
+	width:100%;
+	color:$blue-gray;
+	font-family: $fuente;
+	&__tabla {
+		height: 100vh;
+		display:table;
+		text-align: $texto-centrado;
+		width:100%;
+		&__tr {
+			display:table-row;
+		}
+		&__td {
+			display: table-cell;
+			height: 150px;
+			width: 180px;
+			margin-bottom: 2%;
+		}
+	}
+}
+
+/*Fin estilos color palette*/

@@ -1,15 +1,44 @@
-@for $numColumn from 1 through 12 {
-    .col-#{$numColumn}{
-        width:anchoColumnas($numColumn);
-    }
-}
-
-
 $clase: bloque__encabezado;
-
 @each $titulo in $clase {
     [class="#{$titulo}"] {
         font-size: 3.5rem;
-        font: $fuente; 
+        font: $fuente;
+		text-align: $texto-centrado;
     }
 }
+
+$colores: (#69d2e7,
+#a7dbdb,
+#ffffff,
+#f38630,
+#fa6900,
+#E94C6F,
+#542733,
+#5A6A62,
+#C6D5CD,
+#FDF200,
+#DB3340,
+#E8B71A,
+#F7EAC8,
+#1FDA9A,
+#28ABE3,
+#588C73,
+#F2E394,
+#F2AE72,
+#D96459,
+#8C4646,
+#D0C91F,
+#85C4B9,
+#008BBA,
+#DF514C,
+#DC403B,
+);
+
+@for $i from 1 through 25 {
+	.palette__td--#{$i} {
+		background-color: nth($colores, $i);
+	}
+}
+
+/*rgb(random(255),random(255),random(255)) para generar colores random y asiganrlos como background*/
+/*#000000 + $i para sumarle a un hexadecimal inicial un número par que cambie su tono */

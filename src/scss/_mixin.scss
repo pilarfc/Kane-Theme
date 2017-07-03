@@ -1,0 +1,10 @@
+/*palette mixins*/
+@mixin texto-palette ($size) {
+	font-size: ($size);
+	text-align: $texto-centrado;
+	font-family:$fuente;
+	color:$white;
+}
+
+
+/*palette mixins*/
