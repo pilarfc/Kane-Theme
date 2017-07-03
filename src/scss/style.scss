@@ -276,3 +276,33 @@ color: $white;
 .texto__blanco{
   color: $white;
 }
+
+/* OUR AWESOME TEAM */
+#our-awesome-team{
+  background-color: $green;
+  color: $white;
+  font-family: $fuente;
+}
+.team-header{
+  h2{
+  }
+  hr{
+    width: 20%;
+  }
+  h6{
+    color:adjust-hue( $white, 50% );
+  }
+}
+#team{
+  width: 85%;
+}
+.team-member{
+  color: $light-gray;
+  padding: 1.5rem;
+  &__hr{
+    border-top: 1px dashed 
+  }
+  &__foto{
+    border-radius: 15px;
+  }
+}/* ---Termina OUR TEAM----*/
