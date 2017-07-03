@@ -2,6 +2,11 @@
 @import 'grid';
 @import 'directivas';
 @import 'mixin';
+<<<<<<< HEAD
+@import 'funciones'; //Comienzan Clases generales//
+
+.centrar {
+=======
 @import 'funciones';
 //Comienzan Clases generales//
 
@@ -11,15 +16,20 @@
 }
 
 .centrar{
+>>>>>>> 93d9bd8c009d9f2d27d58b69127a5bce21d0f126
 	text-align: center;
 }
-.izquierda{
+
+.izquierda {
 	float: left;
 }
-.derecha{
+
+.derecha {
 	float: right;
 }
 //Terminan Clases generales//
+<<<<<<< HEAD
+=======
 
 //Comienza Clases Nav//
 .navbar{
@@ -57,49 +67,55 @@
 
 //Terminan Clases Nav//
 
+>>>>>>> 93d9bd8c009d9f2d27d58b69127a5bce21d0f126
 // clases Lexa
+
 .body-color {
-  background: $blue-gray;
-  font-family: $fuente;
-  color: #ffffff;
+	background: $blue-gray;
+	font-family: $fuente;
+	color: #ffffff;
 }
 
 .titulo {
-  @extend .centrar;
-  font-size: 30px;
+	@extend .centrar;
+	font-size: 30px;
 }
 
 .titulo--h6 {
-  @extend .titulo;
-  font-size: 11px;
+	@extend .titulo;
+	font-size: 11px;
 }
 
 .parrafo {
-  @extend .centrar;
-  font-size: 16px;
+	@extend .centrar;
+	font-size: 16px;
 }
 
 .parrafo--naranja {
-  @extend .parrafo;
-  color: $orange;
+	@extend .parrafo;
+	color: $orange;
 }
 
 .input {
-  padding: 5px;
+	padding: 5px;
 }
 
 .boton {
-  padding: 6px;
-  border: none;
+	padding: 6px;
+	border: none;
 }
 
 .boton--submit {
-  background: $dark-gray;
-  color: #ffffff;
+	background: $dark-gray;
+	color: #ffffff;
 }
 
 .linea-division {
-  width: 10%;
+	width: 10%;
+}
+
+.margen-bajo {
+	padding-bottom: 12%;
 }
 
 
