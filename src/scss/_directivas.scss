@@ -2,6 +2,7 @@ $clase: bloque__encabezado;
 @each $titulo in $clase {
     [class="#{$titulo}"] {
         font-size: 3.5rem;
+<<<<<<< HEAD
         font: $fuente;
 		text-align: $texto-centrado;
     }
@@ -42,3 +43,12 @@ $colores: (#69d2e7,
 
 /*rgb(random(255),random(255),random(255)) para generar colores random y asiganrlos como background*/
 /*#000000 + $i para sumarle a un hexadecimal inicial un número par que cambie su tono */
+=======
+        font-family: $fuente; 
+    }
+}
+
+
+$padding: padding; 
+
+>>>>>>> upstream/master

@@ -3,8 +3,17 @@
 @import 'directivas';
 @import 'mixin';
 @import 'funciones';
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 //Comienzan Clases generales//
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
 .centrar{
 	text-align: center;
 }
@@ -16,6 +25,7 @@
 }
 //Terminan Clases generales//
 
+<<<<<<< HEAD
 /*Inicia estilos jumbotron*/
 .jumbotron {
 	width:100%;
@@ -52,3 +62,260 @@
 }
 
 /*Fin estilos color palette*/
+=======
+//Comienza Clases Nav//
+.navbar{
+	min-height: 50px;
+	position: absolute;
+	margin:0;
+
+	&__theme{
+		background-color: $green;
+		width: 100%;
+		padding: 1% 2% 1% 2%;
+	}
+	&--fixedTop{
+		position: fixed;
+		z-index: 7000;
+	}
+	&__link{
+		text-decoration: none;
+		color: white;
+		padding: 6px 8px;
+		border-radius: 10px;
+		&:hover{
+			background: white;
+			color: $green;
+		}
+		&--active{
+			@extend .navbar__link:hover;
+		}
+	}
+	&__logo{
+		width: 95px;
+	}
+
+}
+
+//Terminan Clases Nav//
+
+// clases Lexa
+.body-color {
+  background: $blue-gray;
+  font-family: $fuente;
+  color: #ffffff;
+}
+
+.titulo {
+  @extend .centrar;
+  font-size: 30px;
+}
+
+.titulo--h6 {
+  @extend .titulo;
+  font-size: 11px;
+}
+
+.parrafo {
+  @extend .centrar;
+  font-size: 16px;
+}
+
+.parrafo--naranja {
+  @extend .parrafo;
+  color: $orange;
+}
+
+.input {
+  padding: 5px;
+}
+
+.boton {
+  padding: 6px;
+  border: none;
+}
+
+.boton--submit {
+  background: $dark-gray;
+  color: #ffffff;
+}
+
+.linea-division {
+  width: 10%;
+}
+
+
+
+// INICIA GET IN TOUCH //
+
+.get {
+    font-family: $fuente;
+    background-color: $blue-gray;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+
+    &__hr{
+    border: 1px solid $white;
+    width: 20%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+  }
+
+    &__h6 {
+       margin-top: -3%;
+       margin-bottom: 5%;
+    }
+}
+
+.input__largo {
+    width: 40%;
+    display: block;
+
+    &__button {
+       margin: 1%;
+       background-color: $dark-gray;
+       border-color: $dark-gray;
+       border-width:inherit;
+       color: white;
+       width: 100px;
+       height: 50px;
+    }
+}
+
+#required {
+    text-align: left;
+}
+
+.bloque__redes {
+    height: 50vh;
+    background-image: url(../../assets/img/img-divider-img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+// FINALIZA GET IN TOUCH //
+
+
+/*_____About Us Nash_____*/
+.about{
+  color: $white;
+  background-color: $blue-gray;
+  .bloque__encabezado{
+    text-align: center;
+    padding-top: 5rem;
+    margin-top: 1rem;
+  }
+  &__hr{
+    border: 1px solid $white;
+    width: 20%;
+    margin-bottom: 5%;
+  }
+  &__img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 4%;
+
+  }
+  &__parrafo{
+    font-family: $fuente;
+  }
+  .barra{
+    &__texto{
+      font-family: $fuente;
+    }
+    &__progreso{
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      border-radius: 2px;
+      border: 2px solid #E2DADA;
+      width: 100%;
+      height: 10px;
+    }
+    &__progreso::-webkit-progress-bar {
+      background: #E2DADA;
+    }
+    &__progreso::-webkit-progress-value {
+      background: #E6863A;
+    }
+    &__progreso:not([value])::-webkit-progress-bar {
+      background:#E2DADA;
+    }
+
+  }
+}
+/*_____Termina About Us_____*/
+
+//clases para bloques en best price guranteed (Mireya)
+#linea__corta--blanca{
+	width: 20%;
+}/*
+h2{
+	text-align: center;
+	color: $white;
+}
+#subtitulo{
+	text-align: center;
+	color: $white;
+}
+
+h3{
+  margin: 0;
+}
+small{
+  margin: 0;
+}
+p{
+  margin: 0;
+  display: inline-block;
+}
+*/
+.tabla{
+border: 2px solid $green;
+padding: 0;
+margin-top: 100px;
+
+  li{
+list-style: none;
+padding: 5px 20px 5px 20px;
+text-align: center;
+ }
+}
+.tabla__color--naranja{
+  border: 2px solid $orange;
+  padding: 0;
+  li{
+list-style: none;
+padding: 5px 20px 5px 20px;
+text-align: center;
+ }
+
+}
+.grande{
+line-height: 70px
+}
+.bloque--azul{
+background-color: $blue-gray;
+color: $white;
+}
+.bloque--verde{
+background-color: $green;
+line-height: 50px;
+color: $white;
+
+}
+.color__blanco{
+  background-color: $white;
+}
+.boton__color--negro{
+  @include boton($dark-gray, $dark-gray );
+}
+.texto__blanco{
+  color: $white;
+}
+>>>>>>> upstream/master
