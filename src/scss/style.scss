@@ -299,30 +299,43 @@ color: $white;
   background-color: $green;
   color: $white;
   font-family: $fuente;
+  padding-bottom: 45px;
 }
 .team-header{
   h2{
+    margin: 5%
   }
   hr{
     width: 20%;
   }
   h6{
     color:adjust-hue( $white, 50% );
+    margin:5%;
   }
 }
 #team{
   width: 85%;
+  margin: 5%;
 }
 .team-member{
   color: $light-gray;
   padding: 1.5rem;
   &__hr{
-    border-top: 1px dashed 
+    border-top: 1px dashed; 
   }
   &__foto{
-    border-radius: 15px;
+    &--imagen{
+      border-radius: 11px;
+    }
   }
-}/* ---Termina OUR TEAM----*/
+  &__puesto{
+    color: $dark-gray;
+  } 
+  &__redes{
+    margin: 11px;
+  }
+}
+/* ---Termina OUR TEAM----*/
 
 //Comienzan clases what-we-do
 	.weDo{

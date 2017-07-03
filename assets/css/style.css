@@ -398,23 +398,32 @@ p{
 #our-awesome-team {
   background-color: #27ad60;
   color: #fff;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 45px; }
 
+.team-header h2 {
+  margin: 5%; }
 .team-header hr {
   width: 20%; }
 .team-header h6 {
-  color: white; }
+  color: white;
+  margin: 5%; }
 
 #team {
-  width: 85%; }
+  width: 85%;
+  margin: 5%; }
 
 .team-member {
   color: #bcbc8c;
   padding: 1.5rem; }
   .team-member__hr {
     border-top: 1px dashed; }
-  .team-member__foto {
-    border-radius: 15px; }
+  .team-member__foto--imagen {
+    border-radius: 11px; }
+  .team-member__puesto {
+    color: #443e44; }
+  .team-member__redes {
+    margin: 11px; }
 
 /* ---Termina OUR TEAM----*/
 .weDo {
