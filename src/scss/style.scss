@@ -18,7 +18,7 @@
 .izquierda{
 	float: left;
 }
-.derecha{|
+.derecha{
 	float: right;
 }
 //Terminan Clases generales//
@@ -392,3 +392,33 @@ color: $white;
 }
 
 /*Fin estilos color palette*/
+
+
+
+//Comienzan Clases footer//
+.footer{
+  background-color: $green;
+  padding: 3% 0 3% 0;
+  color: white;
+  font-family: $fuente;
+  &__title{
+    padding-bottom: 10%;
+    border-bottom: solid white 1px;
+    margin-bottom: 10%;
+    width: 60%;
+  }
+  &__text{
+    color: $light-gray;
+  }
+  &__text--white{
+    color: white;
+  }
+  &__container--message{
+    background: $dark-gray;
+    padding: 5%;
+  }
+  &__message{
+    padding: 5%;
+  }
+}
+//Terminan Clases footer//
