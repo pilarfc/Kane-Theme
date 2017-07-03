@@ -318,7 +318,7 @@
   .about .barra__progreso::-webkit-progress-value {
     background: #E6863A; }
   .about .barra__progreso:not([value])::-webkit-progress-bar {
-    background: #E2DADA; }
+    background-color: #E2DADA; }
 
 /*_____Termina About Us_____*/
 #linea__corta--blanca {
