@@ -1,303 +1,49 @@
+/*
+Error: Invalid CSS after "	float: right": expected "{", was ";"
+        on line 22 of src/scss/style.scss
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0px auto; }
+17: }
+18: .izquierda{
+19: 	float: left;
+20: }
+21: .derecha{|
+22: 	float: right;
+23: }
+24: //Terminan Clases generales//
+25: 
+26: //Comienza Clases Nav//
+27: .navbar{
 
-.row {
-  width: 100%; }
-
-.row:before, .row:after {
-  content: " ";
-  display: table; }
-.row:after {
-  clear: both; }
-
-[class*="col-"] {
-  min-height: 7px;
-  padding: 12px;
-  float: left; }
-
-[class="bloque__encabezado"] {
-  font-size: 3.5rem;
-  font-family: "Raleway", sans-serif; }
-
-.col-1 {
-  width: 8.33333%; }
-
-.col-2 {
-  width: 16.66667%; }
-
-.col-3 {
-  width: 25%; }
-
-.col-4 {
-  width: 33.33333%; }
-
-.col-5 {
-  width: 41.66667%; }
-
-.col-6 {
-  width: 50%; }
-
-.col-7 {
-  width: 58.33333%; }
-
-.col-8 {
-  width: 66.66667%; }
-
-.col-9 {
-  width: 75%; }
-
-.col-10 {
-  width: 83.33333%; }
-
-.col-11 {
-  width: 91.66667%; }
-
-.col-12 {
-  width: 100%; }
-
-.offset-1 {
-  margin-left: 8.33333%; }
-
-.offset-2 {
-  margin-left: 16.66667%; }
-
-.offset-3 {
-  margin-left: 25%; }
-
-.offset-4 {
-  margin-left: 33.33333%; }
-
-.offset-5 {
-  margin-left: 41.66667%; }
-
-.offset-6 {
-  margin-left: 50%; }
-
-.offset-7 {
-  margin-left: 58.33333%; }
-
-.offset-8 {
-  margin-left: 66.66667%; }
-
-.offset-9 {
-  margin-left: 75%; }
-
-.offset-10 {
-  margin-left: 83.33333%; }
-
-.offset-11 {
-  margin-left: 91.66667%; }
-
-.offset-12 {
-  margin-left: 100%; }
-
-* {
-  margin: 0 auto;
-  padding: 0; }
-
-.centrar, .titulo, .titulo--h6, .parrafo, .parrafo--naranja {
-  text-align: center; }
-
-.izquierda {
-  float: left; }
-
-.derecha {
-  float: right; }
-
-.navbar {
-  min-height: 50px;
-  position: absolute;
-  margin: 0; }
-  .navbar__theme {
-    background-color: #27ad60;
-    width: 100%;
-    padding: 1% 2% 1% 2%; }
-  .navbar--fixedTop {
-    position: fixed;
-    z-index: 7000; }
-  .navbar__link {
-    text-decoration: none;
-    color: white;
-    padding: 6px 8px;
-    border-radius: 10px; }
-    .navbar__link:hover, .navbar__link--active {
-      background: white;
-      color: #27ad60; }
-  .navbar__logo {
-    width: 95px; }
-
-.body-color {
-  background: #2c3e50;
-  font-family: "Raleway", sans-serif;
-  color: #ffffff; }
-
-.titulo, .titulo--h6 {
-  font-size: 30px; }
-
-.titulo--h6 {
-  font-size: 11px; }
-
-.parrafo, .parrafo--naranja {
-  font-size: 16px; }
-
-.parrafo--naranja {
-  color: #e67e22; }
-
-.input {
-  padding: 5px; }
-
-.boton {
-  padding: 6px;
-  border: none; }
-
-.boton--submit {
-  background: #443e44;
-  color: #ffffff; }
-
-.linea-division {
-  width: 10%; }
-
-.get {
-  font-family: "Raleway", sans-serif;
-  background-color: #2c3e50;
-  width: 100%;
-  height: 100vh;
-  color: white;
-  text-align: center; }
-  .get__hr {
-    border: 1px solid #fff;
-    width: 20%;
-    margin-top: 4%;
-    margin-bottom: 5%; }
-  .get__h6 {
-    margin-top: -3%;
-    margin-bottom: 5%; }
-
-.input__largo {
-  width: 40%;
-  display: block; }
-  .input__largo__button {
-    margin: 1%;
-    background-color: #443e44;
-    border-color: #443e44;
-    border-width: inherit;
-    color: white;
-    width: 100px;
-    height: 50px; }
-
-#required {
-  text-align: left; }
-
-.bloque__redes {
-  height: 50vh;
-  background-image: url(../../assets/img/img-divider-img.jpg);
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center; }
-
-/*_____About Us Nash_____*/
-.about {
-  color: #fff;
-  background-color: #2c3e50; }
-  .about .bloque__encabezado {
-    text-align: center;
-    padding-top: 5rem;
-    margin-top: 1rem; }
-  .about__hr {
-    border: 1px solid #fff;
-    width: 20%;
-    margin-bottom: 5%; }
-  .about__img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 4%; }
-  .about__parrafo {
-    font-family: "Raleway", sans-serif; }
-  .about .barra__texto {
-    font-family: "Raleway", sans-serif; }
-  .about .barra__progreso {
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    border-radius: 2px;
-    border: 2px solid #E2DADA;
-    width: 100%;
-    height: 10px; }
-  .about .barra__progreso::-webkit-progress-bar {
-    background: #E2DADA; }
-  .about .barra__progreso::-webkit-progress-value {
-    background: #E6863A; }
-  .about .barra__progreso:not([value])::-webkit-progress-bar {
-    background: #E2DADA; }
-
-/*_____Termina About Us_____*/
-#linea__corta--blanca {
-  width: 20%;
-  margin-top: 20px; }
-
-#titulo--best {
-  text-align: center;
-  color: #fff;
-  line-height: 50px; }
-
-#subtitulo--best {
-  margin-left: 30%;
-  color: #fff;
-  line-height: 40px; }
-
-h3 {
-  margin: 0; }
-
-small {
-  margin: 0;
-  line-height: 80px; }
-
-.tabla {
-  border: 2px solid #27ad60;
-  padding: 0;
-  margin-top: 100px; }
-  .tabla li {
-    list-style: none;
-    padding: 5px 20px 5px 20px;
-    text-align: center; }
-
-.tabla__color--naranja {
-  border: 2px solid #e67e22;
-  padding: 0;
-  margin-top: 5px; }
-  .tabla__color--naranja li {
-    list-style: none;
-    padding: 5px 20px 5px 20px;
-    text-align: center; }
-
-.grande {
-  line-height: 70px; }
-
-.bloque--azul {
-  background-color: #2c3e50;
-  color: #fff; }
-
-.bloque--verde {
-  background-color: #27ad60;
-  line-height: 50px;
-  color: #fff; }
-
-.color__blanco {
-  background-color: #fff;
-  color: #443e44; }
-
-.boton__color--negro {
-  padding: 7px 12px;
-  border: 1px solid;
-  color: #fff;
-  background-color: #443e44;
-  border-color: #443e44;
-  cursor: pointer; }
-
-.texto__blanco {
-  color: #fff; }
+Backtrace:
+src/scss/style.scss:22
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:674:in `block_contents'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:658:in `ruleset'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"	float: right\": expected \"{\", was \";\"\A         on line 22 of src/scss/style.scss\A \A 17: }\A 18: .izquierda{\A 19: 	float: left;\A 20: }\A 21: .derecha{|\A 22: 	float: right;\A 23: }\A 24: //Terminan Clases generales//\A 25: \A 26: //Comienza Clases Nav//\A 27: .navbar{"; }
