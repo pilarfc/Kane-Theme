@@ -209,17 +209,21 @@
 }
 /*_____Termina About Us_____*/
 
+
 //clases para bloques en best price guranteed (Mireya)
 #linea__corta--blanca{
 	width: 20%;
-}/*
-h2{
-	text-align: center;
-	color: $white;
+  margin-top: 20px;
 }
-#subtitulo{
+#titulo--best{
 	text-align: center;
 	color: $white;
+  line-height: 50px;
+}
+#subtitulo--best{
+	margin-left: 30%;
+	color: $white;
+  line-height: 40px;
 }
 
 h3{
@@ -227,33 +231,22 @@ h3{
 }
 small{
   margin: 0;
+  line-height: 80px;
 }
-p{
-  margin: 0;
-  display: inline-block;
-}
-*/
 .tabla{
-border: 2px solid $green;
-padding: 0;
-margin-top: 100px;
+  @include tablas($green, 100px);
 
   li{
-list-style: none;
-padding: 5px 20px 5px 20px;
-text-align: center;
+    @include celdas;
  }
 }
 .tabla__color--naranja{
-  border: 2px solid $orange;
-  padding: 0;
+  @include tablas($orange, 5px);
   li{
-list-style: none;
-padding: 5px 20px 5px 20px;
-text-align: center;
+    @include celdas;
  }
-
 }
+
 .grande{
 line-height: 70px
 }
@@ -269,6 +262,7 @@ color: $white;
 }
 .color__blanco{
   background-color: $white;
+  color: $dark-gray;
 }
 .boton__color--negro{
   @include boton($dark-gray, $dark-gray );
