@@ -2,11 +2,6 @@
 @import 'grid';
 @import 'directivas';
 @import 'mixin';
-<<<<<<< HEAD
-@import 'funciones'; //Comienzan Clases generales//
-
-.centrar {
-=======
 @import 'funciones';
 //Comienzan Clases generales//
 
@@ -16,20 +11,15 @@
 }
 
 .centrar{
->>>>>>> 93d9bd8c009d9f2d27d58b69127a5bce21d0f126
 	text-align: center;
 }
-
-.izquierda {
+.izquierda{
 	float: left;
 }
-
-.derecha {
+.derecha{
 	float: right;
 }
 //Terminan Clases generales//
-<<<<<<< HEAD
-=======
 
 //Comienza Clases Nav//
 .navbar{
@@ -67,55 +57,49 @@
 
 //Terminan Clases Nav//
 
->>>>>>> 93d9bd8c009d9f2d27d58b69127a5bce21d0f126
 // clases Lexa
-
 .body-color {
-	background: $blue-gray;
-	font-family: $fuente;
-	color: #ffffff;
+  background: $blue-gray;
+  font-family: $fuente;
+  color: #ffffff;
 }
 
 .titulo {
-	@extend .centrar;
-	font-size: 30px;
+  @extend .centrar;
+  font-size: 30px;
 }
 
 .titulo--h6 {
-	@extend .titulo;
-	font-size: 11px;
+  @extend .titulo;
+  font-size: 11px;
 }
 
 .parrafo {
-	@extend .centrar;
-	font-size: 16px;
+  @extend .centrar;
+  font-size: 16px;
 }
 
 .parrafo--naranja {
-	@extend .parrafo;
-	color: $orange;
+  @extend .parrafo;
+  color: $orange;
 }
 
 .input {
-	padding: 5px;
+  padding: 5px;
 }
 
 .boton {
-	padding: 6px;
-	border: none;
+  padding: 6px;
+  border: none;
 }
 
 .boton--submit {
-	background: $dark-gray;
-	color: #ffffff;
+  background: $dark-gray;
+  color: #ffffff;
 }
 
 .linea-division {
-	width: 10%;
-}
-
-.margen-bajo {
-	padding-bottom: 12%;
+  width: 10%;
 }
 
 
@@ -168,16 +152,8 @@
     background-size: cover;
     background-position: center;
     color: white;
-    text-align: center; 
-    
-    &__iconos {
-        padding-top: 10%;
-        .fa {
-            margin: 1%;
-        }
-    }
+    text-align: center;
 }
-
 
 // FINALIZA GET IN TOUCH //
 
@@ -300,37 +276,6 @@ color: $white;
   color: $white;
 }
 
-
-/* OUR AWESOME TEAM */
-#our-awesome-team{
-  background-color: $green;
-  color: $white;
-  font-family: $fuente;
-}
-.team-header{
-  h2{
-  }
-  hr{
-    width: 20%;
-  }
-  h6{
-    color:adjust-hue( $white, 50% );
-  }
-}
-#team{
-  width: 85%;
-}
-.team-member{
-  color: $light-gray;
-  padding: 1.5rem;
-  &__hr{
-    border-top: 1px dashed 
-  }
-  &__foto{
-    border-radius: 15px;
-  }
-}/* ---Termina OUR TEAM----*/
-
 //Comienzan clases what-we-do
 	.weDo{
 		background-color: $green;
@@ -371,6 +316,7 @@ color: $white;
 //Terminan clases what-we-do
 /*Inicia estilos jumbotron*/
 .jumbotron {
+	padding-top: 20%;
 	width:100%;
 	height: 80vh;
 	background-image: url("../../assets/img/carousel-bg.jpg");
@@ -387,6 +333,12 @@ color: $white;
 	width:100%;
 	color:$blue-gray;
 	font-family: $fuente;
+	&__hr{
+    border: 1px solid $blue-gray;
+    width: 20%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+  }
 	&__tabla {
 		height: 100vh;
 		display:table;
