@@ -18,7 +18,7 @@
 .izquierda{
 	float: left;
 }
-.derecha{|
+.derecha{ 
 	float: right;
 }
 //Terminan Clases generales//
@@ -151,6 +151,13 @@
     background-position: center;
     color: white;
     text-align: center;
+    
+    &__iconos {
+        padding-top: 10%;
+        .fa {
+            margin: 1%;
+        }
+    }
 }
 
 // FINALIZA GET IN TOUCH //
