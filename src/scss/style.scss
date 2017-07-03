@@ -1,13 +1,15 @@
 @import 'variables';
 @import 'grid';
-@import 'directivas'; 
-@import 'mixin'; 
-@import 'funciones'; 
+@import 'directivas';
+@import 'mixin';
+@import 'funciones';
 //Comienzan Clases generales//
-*{
-	margin: 0 auto;
-	padding: 0 auto;
+
+* {
+    margin: 0 auto;
+    padding: 0; 
 }
+
 .centrar{
 	text-align: center;
 }
@@ -54,3 +56,80 @@
 }
 
 //Terminan Clases Nav//
+
+// clases Lexa
+.body-color{
+  background: $blue-gray;
+  font:$fuente;
+}
+
+
+
+// INICIA GET IN TOUCH // 
+
+#bloque__getintouch {
+    font-family: $fuente; 
+    background-color: $blue-gray; 
+    width: 100%;
+    height: 100vh; 
+    color: white;
+    text-align: center;
+}
+
+
+// FINALIZA GET IN TOUCH //
+
+
+/*_____About Us Nash_____*/
+.about{
+  color: $white;
+  background-color: $blue-gray;
+  .bloque__encabezado{
+    text-align: center;
+    padding-top: 5rem;
+    margin-top: 1rem;
+  }
+  &__hr{
+    border: 1px solid $white;
+    width: 20%;
+    margin-top: -2%;
+    margin-bottom: 5%;
+  }
+  &__img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 4%;
+
+  }
+  &__parrafo{
+    font-family: $fuente;
+  }
+  .barra{
+    &__texto{
+      font-family: $fuente;
+    }
+    &__progreso{
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      border-radius: 2px;
+      border: 2px solid #E2DADA;
+      width: 100%;
+      height: 10px;
+    } 
+    &__progreso::-webkit-progress-bar {
+      background: #E2DADA;
+    }
+    &__progreso::-webkit-progress-value {
+      background: #E6863A;
+    } 
+    &__progreso:not([value])::-webkit-progress-bar {
+      background:#E2DADA;
+    }
+
+  }
+}
+/*_____Termina About Us_____*/
+
+

@@ -3,12 +3,15 @@ $clase: bloque__encabezado;
 @each $titulo in $clase {
     [class="#{$titulo}"] {
         font-size: 3.5rem;
-        font: $fuente; 
+        font-family: $fuente; 
     }
 }
-$ancho: width;
-img.img-responsive{
-	@if ancho != 100%{
-		width: 100%;
-	}
+
+
+$padding: padding; 
+
+section.bloque__getintouch {
+    @if #{$padding == 12px} {
+        padding: 0px; 
+   }
 }
