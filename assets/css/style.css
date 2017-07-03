@@ -283,6 +283,10 @@
   background-position: center;
   color: white;
   text-align: center; }
+  .bloque__redes__iconos {
+    padding-top: 10%; }
+    .bloque__redes__iconos .fa {
+      margin: 1%; }
 
 /*_____About Us Nash_____*/
 .about {
