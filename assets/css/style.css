@@ -97,7 +97,7 @@
   margin: 0 auto;
   padding: 0; }
 
-.centrar {
+.centrar, .titulo, .titulo--h6, .parrafo, .parrafo--naranja {
   text-align: center; }
 
 .izquierda {
@@ -130,7 +130,34 @@
 
 .body-color {
   background: #2c3e50;
-  font: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  color: #ffffff; }
+
+.titulo, .titulo--h6 {
+  font-size: 30px; }
+
+.titulo--h6 {
+  font-size: 11px; }
+
+.parrafo, .parrafo--naranja {
+  font-size: 16px; }
+
+.parrafo--naranja {
+  color: #e67e22; }
+
+.input {
+  padding: 5px; }
+
+.boton {
+  padding: 6px;
+  border: none; }
+
+.boton--submit {
+  background: #443e44;
+  color: #ffffff; }
+
+.linea-division {
+  width: 10%; }
 
 .get {
   font-family: "Raleway", sans-serif;
