@@ -1,8 +1,8 @@
 @import 'variables';
 @import 'grid';
-@import 'directivas'; 
-@import 'mixin'; 
-@import 'funciones'; 
+@import 'directivas';
+@import 'mixin';
+@import 'funciones';
 //Comienzan Clases generales//
 .centrar{
 	text-align: center;
@@ -14,3 +14,9 @@
 	float: right;
 }
 //Terminan Clases generales//
+
+// clases Lexa
+.body-color{
+  background: $blue-gray;
+  font:$fuente;
+}
