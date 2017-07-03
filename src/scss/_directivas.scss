@@ -9,8 +9,3 @@ $clase: bloque__encabezado;
 
 $padding: padding; 
 
-section.bloque__getintouch {
-    @if #{$padding == 12px} {
-        padding: 0px; 
-   }
-}
