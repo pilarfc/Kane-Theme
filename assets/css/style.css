@@ -106,6 +106,28 @@
 .derecha {
   float: right; }
 
+.navbar {
+  min-height: 50px;
+  position: absolute;
+  margin: 0 0 0 0; }
+  .navbar__theme {
+    background-color: #27ad60;
+    width: 100%;
+    padding: 1% 2% 1% 2%; }
+  .navbar--fixedTop {
+    position: fixed;
+    z-index: 7000; }
+  .navbar__link {
+    text-decoration: none;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 10px; }
+    .navbar__link:hover, .navbar__link--active {
+      background: white;
+      color: #27ad60; }
+  .navbar__logo {
+    width: 95px; }
+
 .body-color {
   background: #2c3e50;
   font: "Raleway", sans-serif; }
@@ -152,7 +174,6 @@
   .about__hr {
     border: 1px solid #fff;
     width: 20%;
-    margin-top: -2%;
     margin-bottom: 5%; }
   .about__img {
     display: block;
