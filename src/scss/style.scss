@@ -3,6 +3,8 @@
 @import 'directivas';
 @import 'mixin';
 @import 'funciones';
+
+
 //Comienzan Clases generales//
 
 * {
@@ -20,6 +22,10 @@
 	float: right;
 }
 //Terminan Clases generales//
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/master
 
 //Comienza Clases Nav//
 .navbar{
@@ -57,7 +63,11 @@
 
 //Terminan Clases Nav//
 
+<<<<<<< HEAD
 // clases Lexa
+=======
+
+>>>>>>> upstream/master
 .body-color {
   background: $blue-gray;
   font-family: $fuente;
